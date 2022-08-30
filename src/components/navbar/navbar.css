@@ -1,0 +1,61 @@
+.login {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.bg-mywhite {
+    background-color: #fff;
+}
+
+.navwrapper {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    margin-bottom: 5rem;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    overflow: hidden;
+}
+
+html:not([data-scroll='0']) .navwrapper {
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+
+/**.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 0 50px;
+}
+
+.navbar .nav-list ul {
+    display: flex;
+    list-style: none;
+    color: #444;
+}
+
+.navbar .nav-list .nav-center ul li {
+    padding: 0 20px 0 30px;
+    font-weight: bold;
+}
+
+.navbar .nav-list ul li a{
+    margin-left: 270px;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 6px 20px 6px 20px;
+    color: #333;
+    font-size: 15px;
+}
+
+**/
+
